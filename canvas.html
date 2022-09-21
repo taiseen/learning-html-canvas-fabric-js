@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Canvas</title>
+
+</head>
+
+<body>
+
+    <h1>Learning HTML Carvers </h1>
+    <p>The HTML <b>canvas</b> tag is used to draw graphics, on the fly, via scripting (usually JavaScript).</p>
+
+    <canvas id="mainCanvas"></canvas>
+
+    <img src="./assets/img/man.jpg" alt="image" id="manImg">
+    <img src="./assets/img/plus.png" alt="image" id="plusImg">
+
+    <div class="btn">
+        <button onclick="draw_pattern_with_image('repeat')">Repeat</button>
+        <button onclick="draw_pattern_with_image('repeat-x')">Repeat - X</button>
+        <button onclick="draw_pattern_with_image('repeat-y')">Repeat - Y</button>
+        <button onclick="draw_pattern_with_image('no-repeat')">No Repeat</button>
+    </div>
+
+
+    <script src="./assets/js/canvasScript.js"></script>
+</body>
+
+</html>
