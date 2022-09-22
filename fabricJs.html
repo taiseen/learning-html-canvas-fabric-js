@@ -13,16 +13,41 @@
             padding: 0;
             box-sizing: border-box;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border: none;
+            outline: none;
         }
 
         #fabricCanvas {
             /* border: 1px solid black; */
         }
 
-        #addLine {
+        .btn {
+            padding: 5px 15px;
+            cursor: pointer;
+        }
+
+        #addLine:hover {
+            background-color: orange;
+            color: black;
+
+        }
+
+        #disableLine:hover {
+            background-color: tomato;
+            color: black;
+        }
+
+        .toolBar {
             position: absolute;
             top: 0;
             left: 0;
+            right: 0;
+            height: 50px;
+            padding: 0 10px;
+            background-color: gray;
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
     </style>
 </head>
@@ -33,7 +58,10 @@
 
         <canvas id="fabricCanvas"></canvas>
 
-        <button id="addLine">Add Line</button>
+        <div class="toolBar">
+            <button class="btn" id="addLine">Add Line</button>
+            <button class="btn" id="disableLine">Disable Line</button>
+        </div>
 
     </div>
 
