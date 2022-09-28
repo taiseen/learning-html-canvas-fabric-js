@@ -1,5 +1,5 @@
 > 21 - Sep - 2022
-
+### [Learning Demo](https://taiseen.github.io/html-canvas-fabric-Js-learning) 
 ## Study reference links are :- 
 
 ## Text
@@ -33,7 +33,8 @@
 
 ```
 Fabric.js
-Fabric.js is a JavaScript library that let you control the HTML5 canvas element as an object. By using this library, we can add object into canvas.
+Fabric.js is a JavaScript library that let you control the HTML5 canvas element as an object. 
+By using this library, we can add object into canvas.
 
 1st we need a canvas & initialize it with Fabric.js.
 Create an object by JavaScript & add into the canvas.
